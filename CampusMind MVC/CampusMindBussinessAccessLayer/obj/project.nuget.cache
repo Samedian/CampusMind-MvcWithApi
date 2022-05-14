@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "k4VB7z/eyCkRaD6n811AkuPQgkAxxlvkjdrYooALTIxt60TDCjpSxlL8ag9CXPclPAfKh5hmQcYT1v+afL6uXQ==",
+  "success": true,
+  "projectFilePath": "E:\\repos\\CampusMind\\CampusMindBussinessAccessLayer\\CampusMindBussinessAccessLayer.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Samarth\\.nuget\\packages\\microsoft.aspnetcore.http.features\\5.0.1\\microsoft.aspnetcore.http.features.5.0.1.nupkg.sha512",
+    "C:\\Users\\Samarth\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
+    "C:\\Users\\Samarth\\.nuget\\packages\\system.io.pipelines\\5.0.1\\system.io.pipelines.5.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

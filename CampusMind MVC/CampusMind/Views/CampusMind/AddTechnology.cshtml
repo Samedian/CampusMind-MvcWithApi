@@ -1,0 +1,59 @@
+﻿<!DOCTYPE HTML>
+@model CampusMind.Models.Technology
+@{
+    ViewBag.Title = "Index";
+}
+
+
+<div class="form-group">
+    <label for="TechonolgyId">Techonolgy Id</label>
+    <input type="text" class="form-control" id="TechnolgyId" placeholder="Enter Id">
+</div>
+<div class="form-group">
+    <label for="TechnologyName">Technology Name</label>
+    <input type="text" class="form-control" id="TechnologyName" placeholder="Technology Name">
+</div>
+<button type="submit" class="btn btn-primary" id="btnSave">Submit</button>
+
+
+@Html.ActionLink("Menu", "Index");
+
+
+
+@section Scripts{
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script type="text/javascript">
+
+    $(function () {
+        $("#btnSave").click(function () {
+            var technology = {};
+            technology.TechnolgyId = $("#TechnolgyId").val();
+            technology.TechnologyName = $("#TechnologyName").val();
+            alert(JSON.stringify(technology));
+            $.ajax({
+
+                type: "POST",
+                url: '@Url.Action("AddTechnology")',
+                data: technology,
+                //data: '{technology: ' + JSON.stringify(technology) + '}',
+                //dataType: "JSON",
+                //contentType: "application/json; charset=utf-8",
+                success: function () {
+                    alert("Data has been added successfully.");
+
+                },
+                error: function () {
+                    alert("Error while inserting data");
+                }
+
+            });
+
+            return false;
+
+        });
+
+    });
+    </script>
+}

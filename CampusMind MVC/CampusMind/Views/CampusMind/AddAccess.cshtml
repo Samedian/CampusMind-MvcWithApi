@@ -1,0 +1,54 @@
+﻿<!DOCTYPE HTML>
+@model CampusMind.Models.User
+@{
+    ViewBag.Title = "Index";
+}
+
+<div class="form-group">
+    <label for="UserName">User Name</label>
+    <input type="text" class="form-control" id="UserName" placeholder="Enter User Name">
+</div>
+<div class="form-group">
+    <label for="Password">Password</label>
+    <input type="text" class="form-control" id="Password" placeholder="Password">
+</div>
+<div class="form-group">
+    <label for="RoleAssign">Role Assign</label>
+    <input type="text" class="form-control" id="RoleAssign" placeholder="Role Assign">
+</div>
+<button type="submit" class="btn btn-primary" id="btnSave">Submit</button>
+
+@Html.ActionLink("Menu", "Index");
+
+@section Scripts{
+    <script type="text/javascript">
+    $(function () {
+    $("#btnSave").click(function () {
+        var user = {};
+        user.UserName = $("#UserName").val();
+        user.Password = $("#Password").val();
+        user.RoleAssign = $("#RoleAssign").val();
+
+    $.ajax({
+         type: "POST",
+        url: '@Url.Action("AddAccess")',
+        data: user,
+         //data: '{access: ' + JSON.stringify(access) + '}',
+        // dataType: "json",
+        //contentType: "application/json; charset=utf-8",
+        success: function () {
+           alert("Data has been added successfully.");
+
+        },
+        error: function () {
+        alert("Error while inserting data");
+        }
+    });
+
+    return false;
+    });
+    });
+    </script>
+}
+
+

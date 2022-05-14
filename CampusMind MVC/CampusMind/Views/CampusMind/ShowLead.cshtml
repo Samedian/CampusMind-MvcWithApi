@@ -1,0 +1,39 @@
+﻿@model IEnumerable<CampusMindEntity.LeadEntity>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                LeadId
+            </th>
+            <th>
+                LeadName
+            </th>
+            <th>
+                Image
+            </th>
+            <th>
+                TechnologyId
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in ViewBag.Data) {
+        <tr>
+            <td>
+                @item.LeadId
+            </td>
+            <td>
+                @item.LeadName
+            </td>
+            <td>
+                <img src="~/images/@item.ImagePath" class="rounded-circle" height="40" width="40" asp-append-version="true" />
+            </td>
+            <td>
+                @item.TechnologyId
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

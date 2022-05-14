@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "CampusMindBussinessLayer/1.0.0": {
+        "dependencies": {
+          "CampusMindEntity": "1.0.0"
+        },
+        "runtime": {
+          "CampusMindBussinessLayer.dll": {}
+        }
+      },
+      "CampusMindEntity/1.0.0": {
+        "runtime": {
+          "CampusMindEntity.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CampusMindBussinessLayer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CampusMindEntity/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

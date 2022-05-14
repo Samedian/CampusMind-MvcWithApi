@@ -1,0 +1,96 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "CampusMindEntity/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/CampusMindEntity.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CampusMindEntity.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CampusMindEntity/1.0.0": {
+      "type": "project",
+      "path": "../CampusMindEntity/CampusMindEntity.csproj",
+      "msbuildProject": "../CampusMindEntity/CampusMindEntity.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "CampusMindEntity >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Samarth\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Samarth\\source\\repos\\CampusMind\\CampusMindBAL\\CampusMindBussinessLayer.csproj",
+      "projectName": "CampusMindBussinessLayer",
+      "projectPath": "C:\\Users\\Samarth\\source\\repos\\CampusMind\\CampusMindBAL\\CampusMindBussinessLayer.csproj",
+      "packagesPath": "C:\\Users\\Samarth\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Samarth\\source\\repos\\CampusMind\\CampusMindBAL\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Samarth\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {
+            "C:\\Users\\Samarth\\source\\repos\\CampusMind\\CampusMindEntity\\CampusMindEntity.csproj": {
+              "projectPath": "C:\\Users\\Samarth\\source\\repos\\CampusMind\\CampusMindEntity\\CampusMindEntity.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[3.1.10, 3.1.10]"
+          }
+        ],
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

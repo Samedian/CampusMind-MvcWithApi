@@ -1,0 +1,12 @@
+C:\Users\Samarth\source\repos\CampusMind\CampusMindBussinessAccessLayer\bin\Debug\netcoreapp3.1\CampusMindBussinessAccessLayer.deps.json
+C:\Users\Samarth\source\repos\CampusMind\CampusMindBussinessAccessLayer\bin\Debug\netcoreapp3.1\CampusMindBussinessAccessLayer.dll
+C:\Users\Samarth\source\repos\CampusMind\CampusMindBussinessAccessLayer\bin\Debug\netcoreapp3.1\CampusMindBussinessAccessLayer.pdb
+C:\Users\Samarth\source\repos\CampusMind\CampusMindBussinessAccessLayer\bin\Debug\netcoreapp3.1\CampusMindEntity.dll
+C:\Users\Samarth\source\repos\CampusMind\CampusMindBussinessAccessLayer\bin\Debug\netcoreapp3.1\CampusMindEntity.pdb
+C:\Users\Samarth\source\repos\CampusMind\CampusMindBussinessAccessLayer\obj\Debug\netcoreapp3.1\CampusMindBussinessAccessLayer.csprojAssemblyReference.cache
+C:\Users\Samarth\source\repos\CampusMind\CampusMindBussinessAccessLayer\obj\Debug\netcoreapp3.1\CampusMindBussinessAccessLayer.AssemblyInfoInputs.cache
+C:\Users\Samarth\source\repos\CampusMind\CampusMindBussinessAccessLayer\obj\Debug\netcoreapp3.1\CampusMindBussinessAccessLayer.AssemblyInfo.cs
+C:\Users\Samarth\source\repos\CampusMind\CampusMindBussinessAccessLayer\obj\Debug\netcoreapp3.1\CampusMindBussinessAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Samarth\source\repos\CampusMind\CampusMindBussinessAccessLayer\obj\Debug\netcoreapp3.1\CampusMindBussinessAccessLayer.csproj.CopyComplete
+C:\Users\Samarth\source\repos\CampusMind\CampusMindBussinessAccessLayer\obj\Debug\netcoreapp3.1\CampusMindBussinessAccessLayer.dll
+C:\Users\Samarth\source\repos\CampusMind\CampusMindBussinessAccessLayer\obj\Debug\netcoreapp3.1\CampusMindBussinessAccessLayer.pdb

@@ -1,0 +1,67 @@
+﻿<!DOCTYPE HTML>
+@model CampusMind.Models.Lead
+@{
+    ViewBag.Title = "Index";
+}
+
+
+<div class="form-group">
+    <label for="LeadId">Lead Id</label>
+    <input type="text" class="form-control" id="LeadId" placeholder="Enter Id">
+</div>
+<div class="form-group">
+    <label for="LeadName">Lead Name</label>
+    <input type="text" class="form-control" id="LeadName" placeholder="Lead Name">
+</div>
+<div class="form-group">
+    <label for="TechnologyId">Technology Id</label>
+    <input type="text" class="form-control" id="TechnologyId" placeholder="Technology Id">
+</div>
+<button type="submit" class="btn btn-primary" id="btnSave">Submit</button>
+
+
+@Html.ActionLink("Menu", "Index");
+
+
+
+@section Scripts{
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script type="text/javascript">
+
+    $(function () {
+        $("#btnSave").click(function () {
+            var lead = {};
+            candidate.LeadId = $("#LeadId").val();
+            candidate.LeadName = $("#LeadName").val();
+            candidate.Profile = null;
+            candidate.TechnologyId = $("TechnologyId").val();
+            $.ajax({
+
+                type: "POST",
+                url: '@Url.Action("DeleteLead")',
+                data: lead,
+                //data: '{technology: ' + JSON.stringify(technology) + '}',
+                //dataType: "JSON",
+                //contentType: "application/json; charset=utf-8",
+                success: function () {
+                    alert("Data has been deleted successfully.");
+
+                },
+                error: function () {
+                    alert("Error while inserting data");
+                }
+
+            });
+
+            return false;
+
+        });
+
+    });
+    </script>
+}
+
+
+

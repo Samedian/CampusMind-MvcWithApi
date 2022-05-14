@@ -1,0 +1,9 @@
+C:\Users\Samarth\source\repos\CampusMindAPI\CampusMindEntity\bin\Debug\netcoreapp3.1\CampusMindEntity.deps.json
+C:\Users\Samarth\source\repos\CampusMindAPI\CampusMindEntity\bin\Debug\netcoreapp3.1\CampusMindEntity.dll
+C:\Users\Samarth\source\repos\CampusMindAPI\CampusMindEntity\bin\Debug\netcoreapp3.1\CampusMindEntity.pdb
+C:\Users\Samarth\source\repos\CampusMindAPI\CampusMindEntity\obj\Debug\netcoreapp3.1\CampusMindEntity.csprojAssemblyReference.cache
+C:\Users\Samarth\source\repos\CampusMindAPI\CampusMindEntity\obj\Debug\netcoreapp3.1\CampusMindEntity.AssemblyInfoInputs.cache
+C:\Users\Samarth\source\repos\CampusMindAPI\CampusMindEntity\obj\Debug\netcoreapp3.1\CampusMindEntity.AssemblyInfo.cs
+C:\Users\Samarth\source\repos\CampusMindAPI\CampusMindEntity\obj\Debug\netcoreapp3.1\CampusMindEntity.csproj.CoreCompileInputs.cache
+C:\Users\Samarth\source\repos\CampusMindAPI\CampusMindEntity\obj\Debug\netcoreapp3.1\CampusMindEntity.dll
+C:\Users\Samarth\source\repos\CampusMindAPI\CampusMindEntity\obj\Debug\netcoreapp3.1\CampusMindEntity.pdb

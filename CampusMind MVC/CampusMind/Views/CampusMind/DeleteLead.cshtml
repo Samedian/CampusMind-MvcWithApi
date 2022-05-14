@@ -1,0 +1,53 @@
+﻿<!DOCTYPE HTML>
+@{
+    ViewBag.Title = "Index";
+}
+
+
+<div class="form-group">
+    <label for="LeadId">Lead Id</label>
+    <input type="text" class="form-control" name="leadId" id="LeadId" placeholder="Enter Id">
+</div>
+<button type="submit" class="btn btn-primary" id="btnSave">Submit</button>
+
+
+@Html.ActionLink("Menu", "Index");
+
+
+
+@section Scripts{
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <script type="text/javascript">
+
+    $(function () {
+        $("#btnSave").click(function () {
+            leadId = $("#LeadId").val();
+            $.ajax({
+
+                type: "POST",
+                url: '@Url.Action("DeleteLead")',
+                data: leadId,
+                //data: '{technology: ' + JSON.stringify(technology) + '}',
+                //dataType: "JSON",
+                //contentType: "application/json; charset=utf-8",
+                success: function () {
+                    alert("Data has been deleted successfully.");
+
+                },
+                error: function () {
+                    alert("Error while inserting data");
+                }
+
+            });
+
+            return false;
+
+        });
+
+    });
+    </script>
+}
+
+
